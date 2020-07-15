@@ -1,5 +1,7 @@
 ## Instruções
 
+$ git clone https://github.com/nathalyamaral/test-qualitysistemas
+
 $cd qualitysistemas
 
 $composer install
