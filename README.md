@@ -34,7 +34,9 @@ $ npm install react-scripts@2.1.8
 
 $ npm run build
 
-
+- Linguagem PHP 7.1.3
+- Laravel 5.8.
+- Banco de Dados para teste phpMyAdmin (SQL)
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
