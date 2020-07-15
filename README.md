@@ -1,3 +1,39 @@
+## Instruções
+
+$cd qualitysistemas
+
+$composer install
+
+$php artisan key:generate 
+
+## Substituir dados arquivo .env pelos dados do .env.example 
+
+## Banco de dados no arquivo .env é esta configuração, varia de acordo com usuário e senha onde será executado
+
+	$DB_CONNECTION=mysql
+	$DB_HOST=127.0.0.1
+	$DB_PORT=3306
+	$DB_DATABASE=qualitysistemas
+	$DB_USERNAME=root
+	$DB_PASSWORD=
+
+## Banco de Dados
+	Pode criar no software utilizado com nome qualitysistemas set utf8_unicode_ci
+		depois executar migrate
+			$ php artisan migrate
+		popular tabelas
+			$ php artisan db:seed
+
+## Ou executar o arquivo sql que cria o banco, tabelas e popula.
+
+$ cd ./frontend
+
+$ npm install react-scripts@2.1.8 
+
+$ npm run build
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
