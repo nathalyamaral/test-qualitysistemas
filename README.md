@@ -45,7 +45,7 @@
 ## Executar servidor ou conferir aplicação online 
     $ php artisan serve
     
-    $ https://qualitysistemas.000webhostapp.com
+    $ https://qualitysistemas.000webhostapp.com (necessário php artisan serve rodando, CORS origem hostname localhost)
     
     
 - Linguagem PHP 7.1.3
