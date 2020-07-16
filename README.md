@@ -2,7 +2,7 @@
 
 $ git clone https://github.com/nathalyamaral/test-qualitysistemas
 
-$cd qualitysistemas
+$cd test-qualitysistemas
 
 $composer install
 
