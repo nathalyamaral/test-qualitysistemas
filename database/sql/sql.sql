@@ -1,6 +1,6 @@
 CREATE DATABASE qualitysistemas CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-USE qualitysistemas;
+USE  qualitysistemas;
 
 --
 -- Estrutura da tabela `cadastro_pessoas`

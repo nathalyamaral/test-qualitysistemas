@@ -26,8 +26,8 @@ class CadastroPessoa extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function cadastroDependentes()
+    public function dependentes()
     {
-        return $this->hasMany(\CadastroDependente::class, 'pessoa_id');
+        return $this->hasMany(CadastroDependente::class, 'pessoa_id', 'id');
     }
 }

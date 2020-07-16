@@ -24,8 +24,8 @@ class CadastroDependente extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function cadastroPessoa()
+    public function pessoa()
     {
-        return $this->belongsTo(CadastroPessoa::class, 'pessoa_id');
+        return $this->belongsTo(\CadastroPessoas::class, 'pessoa_id');
     }
 }

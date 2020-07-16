@@ -47,14 +47,16 @@
 <script>
     export default {
         name: "Novo",
-        data: {
+        data: function() {
+return {
             nome: '',
             data_nascimento: '',
             email: '',
             foto: null,
 
             message: null,
-        },
+        };
+},
         methods: {
             onImageChange(event) {
                 this.foto = event.target.files[0];
