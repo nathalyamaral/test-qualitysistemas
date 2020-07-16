@@ -1,12 +1,14 @@
 ## Instruções
 
-$ git clone https://github.com/nathalyamaral/test-qualitysistemas
+    $ git clone https://github.com/nathalyamaral/test-qualitysistemas
 
-$cd test-qualitysistemas
+    $cd test-qualitysistemas
 
-$composer install
+    $composer install
 
-$php artisan key:generate 
+    $cp .env.exemple .env
+
+    $php artisan key:generate 
 
 ## Substituir dados arquivo .env pelos dados do .env.example 
 
