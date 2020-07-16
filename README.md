@@ -30,12 +30,24 @@
 
 ## Ou executar o arquivo sql que cria o banco, tabelas e popula.
 
-$ cd ./frontend
+    $ cd ./frontend
 
-$ npm install react-scripts@2.1.8 
+    $ nsudo npm install -g npm
 
-$ npm run build
+    $ npm i @vue/cli-service
 
+    $ sudo npm install -g n
+
+    $ sudo n stable
+    
+    $ npm run build
+
+## Executar servidor ou conferir aplicação online 
+    $ php artisan serve
+    
+    $ https://qualitysistemas.000webhostapp.com
+    
+    
 - Linguagem PHP 7.1.3
 - Laravel 5.8.
 - Banco de Dados para teste phpMyAdmin (SQL)
